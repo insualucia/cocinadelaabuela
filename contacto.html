@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - Cocina de la Abuela</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" type="ico" href="favico.ico"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/08326e3035.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+        <nav> 
+            <div class="in-flex">
+            <a href="index.html"><img src="cooking.png" alt="logos"></a>
+            <a class="nav" target="_blank" href="index.html">Home</a>
+            <a class="nav" target="_blank" href="info.html">Acerca De</a>
+            <a class="nav" target="_blank" href="contacto.html">Contacto</a>
+            <h1>Cocina de la Abuela</h1>
+        </div>         
+        </nav>
+    </header>
+    <menu>
+        <h1>Contacto</h1>
+        <div class="contacto">
+        <div class="in-flex">
+        <div>
+        <form action="show_data.html" target="_blank" method="GET">
+            <label id="nombre" class="label" for="firstname">Nombre:</label> <br> <input type="text" name="firstname" placeholder="Ingrese su nombre aquí..." minlength="1" required>
+            <br><br>
+            <label id="apellido" class="label"  for="lastname">Apellido:</label> <br> <input type="text" name="lastname" placeholder="Ingrese su apellido aquí..." minlength="1" required>
+            <br><br>
+            <label id="email" class="label"  for="email">E-mail:</label> <br> <input type="email" name="email" placeholder="Ingrese su e-mail aquí..." minlength="1" required>
+            <br><br>
+            <label class="label"  for="message">Mensaje:</label> <br><textarea name="msg" id="msg" cols="30" rows="10" placeholder="Escríbanos su mensaje :)" minlength="1" required></textarea>
+            <br><br>
+           <a href="mailto:insualucia@gmail.com?subject=Contacto"><input type="submit" value="Enviar"></a>
+        </form>
+    </div>
+    </div>
+    </div>
+    </menu>
+    </body>
+    <footer>
+        <br>
+        <p>Derechos reservados @2021</p>
+        <br>
+        <h5>¡Síguenos!</h5>
+        <a class="redsoc" href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a>
+        <a class="redsoc" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="redsoc" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <br>
+    </footer>
+   
+</html>
